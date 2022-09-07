@@ -3,38 +3,38 @@ const menu = [{
         title: "buttermilk pancakes",
         category: "breakfast",
         price: 15.99,
-        img: "./images/item-1.jpeg",
+        img: "./images/p1.jpg",
         desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
     },
     {
         id: 2,
-        title: "diner double",
-        category: "lunch",
-        price: 13.99,
+        title: "Ramen",
+        category: "Lunch",
+        price: 3.99,
         img: "./imgs/p1.jpg",
         desc: `vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats `,
     },
     {
         id: 3,
-        title: "godzilla milkshake",
-        category: "shakes",
-        price: 6.99,
+        title: "Chocolate Cake",
+        category: "Bakery",
+        price: 14.99,
         img: "./imgs/p2.jpg",
         desc: `ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.`,
     },
     {
         id: 4,
-        title: "country delight",
-        category: "breakfast",
-        price: 20.99,
+        title: "Brownie with IceCream",
+        category: "Bakery",
+        price: 6.39,
         img: "./imgs/p3.jpg",
         desc: `Shabby chic keffiyeh neutra snackwave pork belly shoreditch. Prism austin mlkshk truffaut, `,
     },
     {
         id: 5,
-        title: "egg attack",
-        category: "lunch",
-        price: 22.99,
+        title: "Mix Biscuits",
+        category: "Bakery",
+        price: 10.99,
         img: "./imgs/p4.jpg",
         desc: `franzen vegan pabst bicycle rights kickstarter pinterest meditation farm-to-table 90's pop-up `,
     },
@@ -96,5 +96,6 @@ window.addEventListener('DOMContentLoaded', function() {
                 </div>
             </article>`
     });
-    displayMenu = displayMenu.join('');
+    displayMenu = displayMenu.join("");
+    sectionCenter.innerHTML = displayMenu;
 });
