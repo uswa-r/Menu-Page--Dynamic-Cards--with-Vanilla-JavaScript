@@ -90,7 +90,14 @@ window.addEventListener('DOMContentLoaded', function() {
 
 //filter cards
 filterBtns.forEach(function(btn) {
-    btn.addEventListener('click', function(e) {});
+    btn.addEventListener('click', function(e) {
+        const category = e.currentTarget.dataset.id;
+        const menuCategory = menu.filter(function(menuItem) {
+            if (menuItem.category == category) {
+                return menuItem;
+            }
+        });
+    });
 });
 //end of filter cards
 
