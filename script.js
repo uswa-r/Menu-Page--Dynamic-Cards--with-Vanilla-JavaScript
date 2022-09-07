@@ -65,7 +65,7 @@ const menu = [{
     {
         id: 9,
         title: "quarantine buddy",
-        category: "Bakary",
+        category: "Bakery",
         price: 16.99,
         img: "./imgs/p3.jpg",
         desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
@@ -93,7 +93,7 @@ filterBtns.forEach(function(btn) {
     btn.addEventListener('click', function(e) {
         const category = e.currentTarget.dataset.id;
         const menuCategory = menu.filter(function(menuItem) {
-            if (menuItem.category == category) {
+            if (menuItem.category === category) {
                 return menuItem;
             }
         });
