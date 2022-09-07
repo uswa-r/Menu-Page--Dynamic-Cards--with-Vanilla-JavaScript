@@ -40,18 +40,18 @@ const menu = [{
     },
     {
         id: 6,
-        title: "oreo dream",
-        category: "Bakery",
-        price: 18.99,
-        img: "./imgs/p0.jpg",
+        title: "Sandwich",
+        category: "Lunch",
+        price: 3.99,
+        img: "./imgs/p5.jpg",
         desc: `Portland chicharrones ethical edison bulb, palo santo craft beer chia heirloom iPhone everyday`,
     },
     {
         id: 7,
-        title: "bacon overflow",
+        title: "Crossiant",
         category: "Breakfast",
-        price: 8.99,
-        img: "./imgs/p1.jpg",
+        price: 2.99,
+        img: "./imgs/p6.jpg",
         desc: `carry jianbing normcore freegan. Viral single-origin coffee live-edge, pork belly cloud bread iceland put a bird `,
     },
     {
@@ -59,7 +59,7 @@ const menu = [{
         title: "american classic",
         category: "Lunch",
         price: 12.99,
-        img: "./imgs/p2.jpg",
+        img: "./imgs/p7.jpg",
         desc: `on it tumblr kickstarter thundercats migas everyday carry squid palo santo leggings. Food truck truffaut  `,
     },
     {
@@ -67,7 +67,7 @@ const menu = [{
         title: "quarantine buddy",
         category: "Bakery",
         price: 16.99,
-        img: "./imgs/p3.jpg",
+        img: "./imgs/p8.jpg",
         desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
     },
     {
@@ -75,7 +75,7 @@ const menu = [{
         title: "bison steak",
         category: "Breakfast",
         price: 22.99,
-        img: "./imgs/p4.jpg",
+        img: "./imgs/p9.jpg",
         desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
     },
 ];
