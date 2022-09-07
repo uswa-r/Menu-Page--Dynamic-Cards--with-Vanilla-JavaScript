@@ -1,9 +1,9 @@
 const menu = [{
         id: 1,
-        title: "buttermilk pancakes",
-        category: "breakfast",
-        price: 15.99,
-        img: "./images/p0.jpg",
+        title: "Pista Biscuits",
+        category: "Breakfast",
+        price: 10.99,
+        img: "./imgs/p0.jpg",
         desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
     },
     {
@@ -81,10 +81,18 @@ const menu = [{
 ];
 
 const sectionCenter = document.querySelector('.section-center');
+const filterBtns = document.querySelectorAll('.filter-btn');
 
+//load dynamic cards
 window.addEventListener('DOMContentLoaded', function() {
     displayMenuItems(menu);
 });
+
+//filter cards
+filterBtns.forEach(function(btn) {
+    btn.addEventListener('click', function(e) {});
+});
+//end of filter cards
 
 function displayMenuItems(menuItems) {
     //now to iterate the array instead of static database:
@@ -103,3 +111,4 @@ function displayMenuItems(menuItems) {
     displayMenu = displayMenu.join("");
     sectionCenter.innerHTML = displayMenu;
 }
+//load cards ends here
